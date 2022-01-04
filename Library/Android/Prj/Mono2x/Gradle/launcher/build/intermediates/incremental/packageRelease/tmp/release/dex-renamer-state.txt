@@ -1,4 +1,4 @@
-#Fri Nov 26 05:15:44 IST 2021
-base.0=D\:\\Project-3D\\Demo\\Get-Started-with-AR-main\\Get-Started-with-AR-main\\mobile3D2021\\Library\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+#Wed Jan 05 02:15:01 IST 2022
+base.0=D\:\\Project-3D\\Unity_AR_Git\\Library\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

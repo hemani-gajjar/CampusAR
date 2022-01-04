@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CA24DF18-ABA5-25D4-BA5F-5E562F070339}</ProjectGuid>
+    <ProjectGuid>{C70CB0D2-875F-8AEF-DC2A-188F884C616E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,7 +53,11 @@
     <UnityVersion>2021.2.1f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\GPSLocation\Scripts\GPSLocation.cs" />
+    <Compile Include="Assets\Scenes\Place_Object_On_plane.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Lean\READ ME.txt" />
+    <None Include="Assets\Lean\Third-Party Notices.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -776,12 +780,20 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{504913E2-A65A-ED11-94F3-E0E192AD19F4}</Project>
+      <Project>{74551872-B7FB-B016-03E0-BD7E614DB7B6}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{EAC66E73-04FA-6377-93F5-2736115FF064}</Project>
+      <Project>{C6398EC4-ED69-1F76-1AE8-3169ECEA4A7A}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{9F5446E7-AE86-19F5-F321-1D7AB0C5FC89}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{5EF34D94-951B-A455-FC32-F76AAABC1086}</Project>
+      <Name>LeanCommon</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

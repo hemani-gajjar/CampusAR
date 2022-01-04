@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "16f3c4c1",
+    "m_SelectedDeviceId": "c0c090e00406",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "c0c090e00406",
+        "name": "com.mycomp.myamazingcompany",
+        "processId": 30772,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -73,6 +73,24 @@
             "name": "com.miui.home",
             "processId": 24874,
             "exited": true
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.miui.home",
+            "processId": 2046,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 15878,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 30772,
+            "exited": false
         }
     ],
     "m_Tags": {

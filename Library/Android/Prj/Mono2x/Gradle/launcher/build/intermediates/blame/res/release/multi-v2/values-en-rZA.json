@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Project-3D\\Demo\\Get-Started-with-AR-main\\Get-Started-with-AR-main\\mobile3D2021\\Library\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rZA\\values-en-rZA.xml",
+            "outputFile": "D:\\Project-3D\\Unity_AR_Git\\Library\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rZA\\values-en-rZA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\ae4e63aee2448ed4859dc95da47269f5\\arcore_client\\res\\values-en-rZA\\values.xml",
