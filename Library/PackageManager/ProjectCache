@@ -1182,11 +1182,13 @@ m_ResolvedPackages:
     - 4.2.1
     - 5.0.0-pre.5
     - 5.0.0-pre.6
+    - 5.0.0-pre.7
     compatible:
     - 4.2.0
     - 4.2.1
     - 5.0.0-pre.5
     - 5.0.0-pre.6
+    - 5.0.0-pre.7
     verified: 4.2.1
   dependencies:
   - name: com.unity.xr.arsubsystems
@@ -1350,11 +1352,13 @@ m_ResolvedPackages:
     - 4.2.1
     - 5.0.0-pre.5
     - 5.0.0-pre.6
+    - 5.0.0-pre.7
     compatible:
     - 4.2.0
     - 4.2.1
     - 5.0.0-pre.5
     - 5.0.0-pre.6
+    - 5.0.0-pre.7
     verified: 4.2.1
   dependencies:
   - name: com.unity.xr.arsubsystems

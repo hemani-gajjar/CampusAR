@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,7 +53,10 @@
     <UnityVersion>2021.2.1f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Place_Object_On_plane.cs" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scipts\Place_Object_On_plane.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Lean\READ ME.txt" />
@@ -779,6 +782,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{9F5446E7-AE86-19F5-F321-1D7AB0C5FC89}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{74551872-B7FB-B016-03E0-BD7E614DB7B6}</Project>
       <Name>UnityEditor.UI</Name>
@@ -786,10 +793,6 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{C6398EC4-ED69-1F76-1AE8-3169ECEA4A7A}</Project>
       <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="LeanTouch.csproj">
-      <Project>{9F5446E7-AE86-19F5-F321-1D7AB0C5FC89}</Project>
-      <Name>LeanTouch</Name>
     </ProjectReference>
     <ProjectReference Include="LeanCommon.csproj">
       <Project>{5EF34D94-951B-A455-FC32-F76AAABC1086}</Project>

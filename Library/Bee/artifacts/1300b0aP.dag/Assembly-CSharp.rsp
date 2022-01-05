@@ -310,7 +310,7 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Scenes/Place_Object_On_plane.cs"
+"Assets/Scipts/Place_Object_On_plane.cs"
 -langversion:9.0
 
 /deterministic

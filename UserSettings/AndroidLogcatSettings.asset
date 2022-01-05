@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "c0c090e00406",
         "name": "com.mycomp.myamazingcompany",
-        "processId": 30772,
+        "processId": 13408,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -90,6 +90,108 @@
             "deviceId": "c0c090e00406",
             "name": "com.mycomp.myamazingcompany",
             "processId": 30772,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 29702,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 30909,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 1082,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 2117,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 2687,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 3231,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 12558,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 14143,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 15147,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 16152,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 17739,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 18322,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 10103,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 10858,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 11824,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 12392,
+            "exited": false
+        },
+        {
+            "deviceId": "c0c090e00406",
+            "name": "com.mycomp.myamazingcompany",
+            "processId": 13408,
             "exited": false
         }
     ],
