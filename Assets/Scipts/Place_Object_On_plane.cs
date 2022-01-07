@@ -11,6 +11,7 @@ public class Place_Object_On_plane : MonoBehaviour
     private bool placementPoseIsValid;
     private bool isObjectPlaced;
 
+    
     public GameObject positionIndicator;
     public GameObject prefabToPlace;
     public Camera aRCamera;
@@ -21,6 +22,7 @@ public class Place_Object_On_plane : MonoBehaviour
     }
     void Update()
     {
+        
         if (!isObjectPlaced)
         {
             UpdatePlacementPose();

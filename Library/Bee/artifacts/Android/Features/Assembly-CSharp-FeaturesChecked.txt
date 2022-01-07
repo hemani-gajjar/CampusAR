@@ -1,2 +1,4 @@
+UnityEngine.WebCamTexture
+UnityEngine.Input::get_location
 UnityEngine.Input::GetTouch
 UnityEngine.Input::get_touchCount

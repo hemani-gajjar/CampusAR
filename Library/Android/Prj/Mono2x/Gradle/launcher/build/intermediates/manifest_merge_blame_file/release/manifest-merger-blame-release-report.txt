@@ -31,182 +31,215 @@
 21    <uses-permission android:name="android.permission.INTERNET" />
 21-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-67
 21-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:22-64
-22
-23    <uses-feature
-23-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
-24        android:name="android.hardware.touchscreen"
-24-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-52
-25        android:required="false" />
-25-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
-26    <uses-feature
-26-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
-27        android:name="android.hardware.touchscreen.multitouch"
-27-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-63
-28        android:required="false" />
-28-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
-29    <uses-feature
-29-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
-30        android:name="android.hardware.touchscreen.multitouch.distinct"
-30-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-72
-31        android:required="false" />
-31-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-79
+22-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:22-76
+23
+24    <uses-feature
+24-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-19:36
+25        android:name="android.hardware.location.gps"
+25-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-53
+26        android:required="false" />
+26-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:9-33
+27    <uses-feature
+27-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.location"
+28-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-49
+29        android:required="false" />
+29-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+30
+31    <uses-permission android:name="android.permission.CAMERA" />
+31-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-65
+31-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:22-62
 32
-33    <uses-permission android:name="android.permission.CAMERA" />
-33-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-65
-33-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:22-62
-34
-35    <uses-feature
-35-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-30:35
-36        android:name="android.hardware.camera.ar"
-36-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-50
-37        android:required="true" />
-37-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-32
-38    <uses-feature
-38-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-33:35
-39        android:name="com.google.ar.core.depth"
-39-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-48
-40        android:required="true" />
-40-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-32
-41
-42    <queries>
-42-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:29:5-31:15
-43        <package android:name="com.google.ar.core" />
-43-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:9-54
-43-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:18-51
-44    </queries>
-45
-46    <application
-46-->D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
-47        android:extractNativeLibs="true"
-47-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:18-50
-48        android:icon="@mipmap/app_icon"
-48-->D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
-49        android:label="@string/app_name" >
-49-->D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
-50        <activity
-50-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-56:20
-51            android:name="com.unity3d.player.UnityPlayerActivity"
-51-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-66
-52            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-52-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-194
-53            android:hardwareAccelerated="false"
-53-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-48
-54            android:launchMode="singleTask"
-54-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-44
-55            android:resizeableActivity="false"
-55-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-47
-56            android:screenOrientation="portrait"
-56-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-49
-57            android:theme="@style/UnityThemeSelector" >
-57-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-54
-58            <intent-filter>
-58-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-48:29
-59                <action android:name="android.intent.action.MAIN" />
-59-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:17-69
-59-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:25-66
-60
-61                <category android:name="android.intent.category.LAUNCHER" />
-61-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-77
-61-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:27-74
-62            </intent-filter>
-63
-64            <meta-data
-64-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-52:40
-65                android:name="unityplayer.UnityActivity"
-65-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-57
-66                android:value="true" />
-66-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-37
-67            <meta-data
-67-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-55:40
-68                android:name="android.notch_support"
-68-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-53
-69                android:value="true" />
-69-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:17-37
-70        </activity>
-71
-72        <meta-data
-72-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:9-60:33
-73            android:name="unity.splash-mode"
-73-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-45
-74            android:value="0" />
-74-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-30
-75        <meta-data
-75-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:9-63:36
-76            android:name="unity.splash-enable"
-76-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-47
-77            android:value="True" />
-77-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-33
-78        <meta-data
-78-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-66:36
-79            android:name="unity.launch-fullscreen"
-79-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-51
-80            android:value="True" />
-80-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-33
-81        <meta-data
-81-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:37
-82            android:name="unity.allow-resizable-window"
-82-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-56
-83            android:value="False" />
-83-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-34
-84        <meta-data
-84-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:50
-85            android:name="notch.config"
-85-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-40
-86            android:value="portrait|landscape" />
-86-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-47
+33    <uses-feature
+33-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-28:36
+34        android:name="android.hardware.camera"
+34-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-47
+35        android:required="false" />
+35-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-33
+36    <uses-feature
+36-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:5-31:36
+37        android:name="android.hardware.camera.autofocus"
+37-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-57
+38        android:required="false" />
+38-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-33
+39    <uses-feature
+39-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:5-34:36
+40        android:name="android.hardware.camera.front"
+40-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-53
+41        android:required="false" />
+41-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-33
+42    <uses-feature
+42-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-37:36
+43        android:name="android.hardware.touchscreen"
+43-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-52
+44        android:required="false" />
+44-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-33
+45    <uses-feature
+45-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:5-40:36
+46        android:name="android.hardware.touchscreen.multitouch"
+46-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:9-63
+47        android:required="false" />
+47-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-33
+48    <uses-feature
+48-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:5-43:36
+49        android:name="android.hardware.touchscreen.multitouch.distinct"
+49-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:9-72
+50        android:required="false" />
+50-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:9-33
+51    <uses-feature
+51-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:5-46:35
+52        android:name="android.hardware.camera.ar"
+52-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:9-50
+53        android:required="true" />
+53-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:9-32
+54    <uses-feature
+54-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:5-49:35
+55        android:name="com.google.ar.core.depth"
+55-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:9-48
+56        android:required="true" />
+56-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:9-32
+57
+58    <queries>
+58-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:29:5-31:15
+59        <package android:name="com.google.ar.core" />
+59-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:9-54
+59-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:18-51
+60    </queries>
+61
+62    <application
+62-->D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+63        android:extractNativeLibs="true"
+63-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:18-50
+64        android:icon="@mipmap/app_icon"
+64-->D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+65        android:label="@string/app_name" >
+65-->D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+66        <activity
+66-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:9-72:20
+67            android:name="com.unity3d.player.UnityPlayerActivity"
+67-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-66
+68            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+68-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-194
+69            android:hardwareAccelerated="false"
+69-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-48
+70            android:launchMode="singleTask"
+70-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-44
+71            android:resizeableActivity="false"
+71-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-47
+72            android:screenOrientation="portrait"
+72-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-49
+73            android:theme="@style/UnityThemeSelector" >
+73-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-54
+74            <intent-filter>
+74-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-64:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:17-69
+75-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:17-77
+77-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:27-74
+78            </intent-filter>
+79
+80            <meta-data
+80-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-68:40
+81                android:name="unityplayer.UnityActivity"
+81-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:17-57
+82                android:value="true" />
+82-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:17-37
+83            <meta-data
+83-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-71:40
+84                android:name="android.notch_support"
+84-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:17-53
+85                android:value="true" />
+85-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:17-37
+86        </activity>
 87
-88        <receiver
-88-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:9-76:39
-89            android:name="com.unity.androidnotifications.UnityNotificationManager"
-89-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-83
-90            android:exported="true" />
-90-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-36
-91        <receiver
-91-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:9-83:20
-92            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
-92-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-97
-93            android:enabled="false" >
-93-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-36
-94            <intent-filter>
-94-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:13-82:29
-95                <action android:name="android.intent.action.BOOT_COMPLETED" />
-95-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:17-79
-95-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:25-76
-96            </intent-filter>
-97        </receiver>
-98
-99        <meta-data
-99-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:9-87:36
-100            android:name="unityplayer.SkipPermissionsDialog"
-100-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:86:13-61
-101            android:value="true" />
-101-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:87:13-33
-102        <meta-data
-102-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:88:9-90:40
-103            android:name="com.google.ar.core"
-103-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:89:13-46
-104            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
-104-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:90:13-37
-105        <meta-data
-105-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:36:9-38:41
-106            android:name="com.google.ar.core.min_apk_version"
-106-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:37:13-62
-107            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
-107-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:38:13-38
-108        <activity
-108-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:40:9-46:80
-109            android:name="com.google.ar.core.InstallActivity"
-109-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:41:13-62
-110            android:configChanges="keyboardHidden|orientation|screenSize"
-110-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:42:13-74
-111            android:excludeFromRecents="true"
-111-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:43:13-46
-112            android:exported="false"
-112-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:44:13-37
-113            android:launchMode="singleTop"
-113-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:45:13-43
-114            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
-114-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:46:13-77
-115    </application>
-116
-117</manifest>
+88        <meta-data
+88-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:9-76:33
+89            android:name="unity.splash-mode"
+89-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-45
+90            android:value="0" />
+90-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-30
+91        <meta-data
+91-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:9-79:36
+92            android:name="unity.splash-enable"
+92-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-47
+93            android:value="True" />
+93-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-33
+94        <meta-data
+94-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:9-82:36
+95            android:name="unity.launch-fullscreen"
+95-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-51
+96            android:value="True" />
+96-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-33
+97        <meta-data
+97-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:83:9-85:37
+98            android:name="unity.allow-resizable-window"
+98-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:84:13-56
+99            android:value="False" />
+99-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:13-34
+100        <meta-data
+100-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:86:9-88:50
+101            android:name="notch.config"
+101-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:87:13-40
+102            android:value="portrait|landscape" />
+102-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:88:13-47
+103
+104        <receiver
+104-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:90:9-92:39
+105            android:name="com.unity.androidnotifications.UnityNotificationManager"
+105-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:91:13-83
+106            android:exported="true" />
+106-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:92:13-36
+107        <receiver
+107-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:93:9-99:20
+108            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+108-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:94:13-97
+109            android:enabled="false" >
+109-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:95:13-36
+110            <intent-filter>
+110-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:96:13-98:29
+111                <action android:name="android.intent.action.BOOT_COMPLETED" />
+111-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:97:17-79
+111-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:97:25-76
+112            </intent-filter>
+113        </receiver>
+114
+115        <meta-data
+115-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:101:9-103:36
+116            android:name="unityplayer.SkipPermissionsDialog"
+116-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:102:13-61
+117            android:value="true" />
+117-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:103:13-33
+118        <meta-data
+118-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:104:9-106:40
+119            android:name="com.google.ar.core"
+119-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:105:13-46
+120            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+120-->[:unityLibrary] D:\Project-3D\Unity_AR_Git\Library\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:106:13-37
+121        <meta-data
+121-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:36:9-38:41
+122            android:name="com.google.ar.core.min_apk_version"
+122-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:37:13-62
+123            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+123-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:38:13-38
+124        <activity
+124-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:40:9-46:80
+125            android:name="com.google.ar.core.InstallActivity"
+125-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:41:13-62
+126            android:configChanges="keyboardHidden|orientation|screenSize"
+126-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:42:13-74
+127            android:excludeFromRecents="true"
+127-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:43:13-46
+128            android:exported="false"
+128-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:44:13-37
+129            android:launchMode="singleTop"
+129-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:45:13-43
+130            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+130-->[:arcore_client:] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:46:13-77
+131    </application>
+132
+133</manifest>
