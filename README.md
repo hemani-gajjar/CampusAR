@@ -19,3 +19,9 @@ used ```UpdateGPS.cs``` script to edit the informations on the template model ac
 ```PrefabToPlace.Prefab``` contains model object.
 #### Templete 3D model was build on Vectary.com
 
+## Demonstration video:-
+
+
+https://user-images.githubusercontent.com/83028360/148637079-95c08bea-893c-4fc5-9efc-0c0ac75b47e8.mp4
+
+Find full video in Demonstration floder.
