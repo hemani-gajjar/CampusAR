@@ -24,7 +24,7 @@ used ```UpdateGPS.cs``` script to edit the informations on the template model ac
 ```PrefabToPlace.Prefab``` contains model object.
 
 ## Demonstration video:-
-Find full video in Demonstration floder.
+Find the full video here: [Full Video](https://drive.google.com/file/d/1Z-iSzs6BN49G9G31YT4J_9UYIz5wyBoj/view) or take a look at the full video in the Demonstration folder.
 
 https://user-images.githubusercontent.com/83028360/148637079-95c08bea-893c-4fc5-9efc-0c0ac75b47e8.mp4
 
