@@ -1,4 +1,10 @@
 # Unity_AR
+
+## Demonstration video:-
+Find the full video here: [Full Video](https://drive.google.com/file/d/1Z-iSzs6BN49G9G31YT4J_9UYIz5wyBoj/view) or take a look at the full video in the Demonstration folder.
+
+https://user-images.githubusercontent.com/83028360/148637079-95c08bea-893c-4fc5-9efc-0c0ac75b47e8.mp4
+
 Version - ```Unity 2021.2.1f1```
 ##### Modules to this version - 
 _*Android Build Support*_ and _IOS Build Support_  
@@ -29,10 +35,7 @@ used ```UpdateGPS.cs``` script to edit the informations on the template model ac
 - Tap on the mobile screen and the 3d object will appear.
 - You can zoom and roatate according to your choice.
 
-## Demonstration video:-
-Find the full video here: [Full Video](https://drive.google.com/file/d/1Z-iSzs6BN49G9G31YT4J_9UYIz5wyBoj/view) or take a look at the full video in the Demonstration folder.
 
-https://user-images.githubusercontent.com/83028360/148637079-95c08bea-893c-4fc5-9efc-0c0ac75b47e8.mp4
 
 ## How to open this Project in Unity ?
 - Open ```Github Desktop``` and Clone this repositary.
