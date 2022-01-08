@@ -23,9 +23,13 @@ used ```UpdateGPS.cs``` script to edit the informations on the template model ac
 ```Pointer.prefab``` contains red pointer.   
 ```PrefabToPlace.Prefab``` contains model object.
 
+## How to run this application on Android ?
+- Download APK file named ```final.apk``` in Asset/Build Folder.
+
 ## Demonstration video:-
 Find full video in Demonstration floder.
 
 https://user-images.githubusercontent.com/83028360/148637079-95c08bea-893c-4fc5-9efc-0c0ac75b47e8.mp4
 
+## How to open this Project in Unity ?
 
