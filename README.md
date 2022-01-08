@@ -3,27 +3,27 @@ Version - ```Unity 2021.2.1f1```
 ##### Modules to this version - 
 _Android Build Support_ and _IOS Build Support_  
 
-## Location Based Augment Reality Application 
+## Location Based Augmented Reality Application 
 
-#### Requaried Unity Packages and Assets:- 
+#### Required Unity Packages and Assets:- 
 - AR Foundation
-- ARCore(android) or ARkit(Apple IOS)
+- ARCore(Android) or ARKit(Apple IOS)
 - ARCoreXR Plugin
 - LeanTouch (Asset Store - Unity)
 
-### Find all the C# Scripts in Asset/Script folder
-Used ```Place_object_on_place.cs``` Script to place the object in place of red marker   
-Used ```GPS.cs``` script to extract user's location  
+### Find all the C# Scripts in Assets/Script folder
+Used ```Place_object_on_place.cs``` Script to place the object in place of red marker.   
+Used ```GPS.cs``` script to extract user's location.  
 used ```UpdateGPS.cs``` script to edit the informations on the template model according to the location of user.
 
-#### Templete 3D model was build on Vectary.com, fbx files are saved in Asset/Model folder.
+#### Templete 3D model was build on Vectary.com, fbx files are saved in Assets/Model folder.
 
-### Asset/Prefab contains the game objects(Prefab file) and their configurations.
+### Assets/Prefab contains the game objects(Prefab file) and their configurations.
 ```Pointer.prefab``` contains red pointer.   
 ```PrefabToPlace.Prefab``` contains model object.
 
 ## How to run this application on Android ?
-- Download APK file named ```final.apk``` from Asset/Build Folder to your Android mobile.
+- Download the APK file named ```final.apk``` from Build Folder to your Android mobile.
 - Find the app named ```myAR``` app on your device click on it.
 - Face the camera toward building and wait for a ```Red pointer``` to appear.
 - Tap on the mobile screen and the 3d object will appear.
