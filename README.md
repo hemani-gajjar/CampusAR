@@ -20,7 +20,7 @@ used ```UpdateGPS.cs``` script to edit the informations on the template model ac
 #### Asset/Model contains Game objects as fbx file.
 
 ### Asset/Prefab contains the game objects(Prefab file) and their configurations.
-```Pointer.prefab``` contains red pointer.
+```Pointer.prefab``` contains red pointer.   
 ```PrefabToPlace.Prefab``` contains model object.
 
 ## Demonstration video:-
