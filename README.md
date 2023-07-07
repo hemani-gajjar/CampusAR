@@ -1,4 +1,4 @@
-# Unity_AR
+# CampusAR
 
 Version - ```Unity 2021.2.1f1```
 ##### Modules to this version - 
